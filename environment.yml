@@ -1,0 +1,9 @@
+name: q4_env
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - scikit-learn
+  - pip:
+    - mlflow
