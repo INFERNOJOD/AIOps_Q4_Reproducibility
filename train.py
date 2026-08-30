@@ -2,7 +2,7 @@ import mlflow
 from sklearn.linear_model import LogisticRegression
 from sklearn.datasets import load_iris
 
-mlflow.set_tracking_uri("sqlite:///mlflow.db")
+mlflow.set_tracking_uri("http://localhost:5000")
 mlflow.set_experiment("Q4_Reproducibility")
 
 with mlflow.start_run(run_name="Partner_A_Run"):
